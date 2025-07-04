@@ -2,38 +2,69 @@
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>My Portfolio</title>
   <style>
     body {
       font-family: Arial, sans-serif;
-      max-width: 800px;
-      margin: 50px auto;
-      padding: 0 20px;
+      margin: 0;
+      padding: 40px 20px;
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
       line-height: 1.6;
-    }
-    h1, h2 {
       color: #333;
     }
-    nav {
-      margin-bottom: 30px;
+
+    header {
+      text-align: center;
+      margin-bottom: 50px;
     }
+
+    nav {
+      margin-bottom: 40px;
+      text-align: center;
+    }
+
     nav a {
-      margin-right: 20px;
+      margin: 0 15px;
       text-decoration: none;
       color: #0070f3;
+      font-weight: bold;
     }
+
     nav a:hover {
       text-decoration: underline;
     }
+
+    section {
+      margin-bottom: 60px;
+    }
+
     footer {
-      margin-top: 50px;
+      text-align: center;
       font-size: 14px;
       color: #aaa;
+      margin-top: 50px;
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 20px 10px;
+      }
+
+      nav a {
+        display: block;
+        margin: 10px 0;
+      }
     }
   </style>
 </head>
 <body>
-  <h1>👋 Hi, I'm [준석]!</h1>
+  <header>
+    <h1>👋 Hi, I'm [이준석]!</h1>
+    <p>Welcome to my portfolio website!</p>
+  </header>
 
   <nav>
     <a href="#about">About Me</a>
@@ -43,22 +74,24 @@
 
   <section id="about">
     <h2>About Me</h2>
-    <p>안녕하세요! 저는 웹 개발을 공부하고 있는 [이준석]입니다.<br>
-    최신 기술을 배우고 실습하면서 포트폴리오를 채워가고 있어요.</p>
+    <p>
+      안녕하세요! 저는 웹 개발을 공부하고 있는 [이준석]입니다.<br/>
+      최신 기술과 멋진 사용자 경험을 만들어가는 걸 좋아합니다.
+    </p>
   </section>
 
   <section id="projects">
     <h2>Projects</h2>
     <ul>
-      <li>📌 Project 1 — 아직 없어요</li>
-      <li>📌 Project 2 — 아직 없어요</li>
+      <li><strong>📌 Project 1</strong> — 간단한 설명</li>
+      <li><strong>📌 Project 2</strong> — 간단한 설명</li>
     </ul>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
-    <p>📧 이메일: youremail@example.com</p>
-    <p>💻 GitHub: <a href="https://github.com/yun12154" target="_blank">yun12154</a></p>
+    <p>📧 Email: youremail@example.com</p>
+    <p>💻 GitHub: <a href="https://github.com/yun12154" target="_blank">깃허브 링크</a></p>
   </section>
 
   <footer>
