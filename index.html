@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Junseok's Portfolio</title>
+  <title>준석 PT GYM</title>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
   <!-- CSS -->
@@ -12,68 +12,189 @@
 <body>
   <header>
     <div class="container">
-      <h1>Junseok</h1>
+      <h1>준석 PT GYM</h1>
       <nav>
-        <a href="#about">About</a>
-        <a href="#projects">Projects</a>
-        <a href="#contact">Contact</a>
+        <a href="#about">소개</a>
+        <a href="#programs">프로그램</a>
+        <a href="#testimonials">후기</a>
+        <a href="#contact">문의하기</a>
       </nav>
     </div>
   </header>
 
   <section id="hero">
     <div class="container">
-      <h2>Hi, I'm Junseok</h2>
-      <p>Frontend Developer building things for the web.</p>
-    </div>
-  </section>
-
-  <section id="projects">
-    <div class="container">
-      <h2>Projects</h2>
-      <div class="grid">
-        <div class="card">
-          <img src="https://picsum.photos/seed/project1/300/200" alt="Project Screenshot 1">
-          <h3>Project One</h3>
-          <p>A clean UI for listing items with modern style.</p>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/project2/300/200" alt="Project Screenshot 2">
-          <h3>Project Two</h3>
-          <p>An interactive to-do app using vanilla JS.</p>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/project3/300/200" alt="Project Screenshot 3">
-          <h3>Project Three</h3>
-          <p>A blog clone with React + Markdown support.</p>
-        </div>
-        <div class="card">
-          <img src="https://picsum.photos/seed/project4/300/200" alt="Project Screenshot 4">
-          <h3>Project Four</h3>
-          <p>A portfolio deployed with Next.js & Vercel.</p>
-        </div>
-      </div>
+      <h2>당신의 몸을 바꾸는 첫걸음</h2>
+      <p>맞춤형 PT와 전문 식단 관리로 최고의 변화를 경험하세요.</p>
     </div>
   </section>
 
   <section id="about">
     <div class="container">
-      <h2>About Me</h2>
-      <p>I’m passionate about building web experiences that are both aesthetic and functional. I love learning new tech and improving every day.</p>
+      <h2>헬스장 소개</h2>
+      <p>준석 PT GYM은 회원 한 분 한 분의 목표에 맞춘 1:1 맞춤 트레이닝과 체계적인 식단 관리를 제공합니다. 운동이 처음이어도 괜찮습니다. 당신의 변화를 함께 만들어 갑니다.</p>
+    </div>
+  </section>
+
+  <section id="programs">
+    <div class="container">
+      <h2>프로그램</h2>
+      <div class="grid">
+        <div class="card">
+          <img src="https://picsum.photos/seed/pt1/300/200" alt="1:1 PT">
+          <h3>1:1 개인 PT</h3>
+          <p>개인 목표와 체형에 맞춘 1:1 맞춤 트레이닝 프로그램.</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/pt2/300/200" alt="그룹 PT">
+          <h3>그룹 PT</h3>
+          <p>소수 정예 그룹으로 함께 즐겁게 운동하며 목표 달성.</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/pt3/300/200" alt="식단 관리">
+          <h3>전문 식단 관리</h3>
+          <p>영양 전문가와 함께하는 건강한 식단 플랜 제공.</p>
+        </div>
+        <div class="card">
+          <img src="https://picsum.photos/seed/pt4/300/200" alt="바디 프로필">
+          <h3>바디 프로필 준비</h3>
+          <p>멋진 바디 프로필 촬영을 위한 집중 트레이닝 패키지.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="testimonials">
+    <div class="container">
+      <h2>회원 후기</h2>
+      <p>“3개월 만에 체지방 10kg 감량! 트레이너님 덕분에 자신감이 생겼습니다.” - 홍길동</p>
+      <p>“운동이 이렇게 즐거울 줄 몰랐어요! 매번 갈 때마다 동기부여됩니다.” - 김영희</p>
     </div>
   </section>
 
   <section id="contact">
     <div class="container">
-      <h2>Contact</h2>
-      <p>Email: youremail@example.com</p>
+      <h2>문의하기</h2>
+      <p>상담 및 체험 문의: 010-1234-5678</p>
+      <p>Email: junseokgym@example.com</p>
     </div>
   </section>
 
   <footer>
     <div class="container">
-      <p>&copy; 2025 Junseok</p>
+      <p>&copy; 2025 준석 PT GYM. All rights reserved.</p>
     </div>
   </footer>
 </body>
 </html>
+🗂️ style.css
+(기존 CSS에 맞춰 살짝만 수정)
+
+css
+복사
+편집
+/* 기본 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+a {
+  color: #64ffda;
+  text-decoration: none;
+}
+
+header {
+  background: #0a192f;
+  color: #fff;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+}
+
+header h1 {
+  font-size: 1.8rem;
+}
+
+header nav a {
+  margin-left: 20px;
+  font-weight: 500;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+#hero {
+  background: #112240;
+  color: #fff;
+  padding: 100px 0;
+  text-align: center;
+}
+
+#hero h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+section h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 2rem;
+}
+
+#about, #programs, #testimonials, #contact {
+  padding: 80px 0;
+}
+
+#about p, #testimonials p, #contact p {
+  max-width: 700px;
+  margin: 0 auto 15px auto;
+  text-align: center;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  margin-bottom: 10px;
+  color: #0a192f;
+}
+
+footer {
+  background: #112240;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
